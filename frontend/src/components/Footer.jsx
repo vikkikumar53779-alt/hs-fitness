@@ -56,7 +56,13 @@ export const Footer = () => {
                                 target="_blank"
                                 rel="noreferrer"
                                 data-testid="footer-whatsapp"
-                                className="w-10 h-10 rounded-full bg-[var(--hs-whatsapp)] text-black flex items-center justify-center hover:bg-[var(--hs-whatsapp-hover)] transition-all"
+                                className="w-10 h-10 rounded-full text-white flex items-center justify-center transition-all"
+                                style={{
+                                    background:
+                                        "linear-gradient(135deg, #25D366 0%, #1EBE5D 50%, #128C7E 100%)",
+                                    boxShadow:
+                                        "0 4px 14px -4px rgba(37,211,102,0.5)",
+                                }}
                             >
                                 <WhatsappIcon className="w-4 h-4" />
                             </a>

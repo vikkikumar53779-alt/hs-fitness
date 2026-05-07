@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import { BRAND, waLink } from "../lib/constants";
-import { WhatsappIcon } from "./WhatsappIcon";
+import { WhatsappButton } from "./WhatsappIcon";
 
 const scrollToId = (id) => {
     const el = document.getElementById(id);
@@ -68,16 +68,13 @@ export const Hero = () => {
                             />
                         </button>
 
-                        <a
-                            data-testid="hero-whatsapp-btn"
+                        <WhatsappButton
                             href={waLink()}
-                            target="_blank"
-                            rel="noreferrer"
-                            className="inline-flex items-center justify-center gap-3 bg-[var(--hs-whatsapp)] hover:bg-[var(--hs-whatsapp-hover)] text-black font-bold uppercase tracking-[0.18em] text-xs px-8 py-4 rounded-full transition-all hover:shadow-[0_0_30px_rgba(37,211,102,0.45)]"
+                            size="lg"
+                            testId="hero-whatsapp-btn"
                         >
-                            <WhatsappIcon className="w-5 h-5" />
                             WhatsApp Enquiry
-                        </a>
+                        </WhatsappButton>
                     </div>
 
                     {/* Stat strip */}

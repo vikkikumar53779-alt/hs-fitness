@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Menu, X } from "lucide-react";
 import { BRAND, NAV_LINKS, waLink } from "../lib/constants";
-import { WhatsappIcon } from "./WhatsappIcon";
+import { WhatsappIcon, WhatsappButton } from "./WhatsappIcon";
 
 const scrollToId = (id) => {
     const el = document.getElementById(id);
@@ -109,9 +109,18 @@ export const Header = () => {
                             href={waLink()}
                             target="_blank"
                             rel="noreferrer"
-                            className="mt-2 inline-flex items-center justify-center gap-2 bg-[var(--hs-whatsapp)] text-black font-bold text-xs uppercase tracking-widest px-5 py-3 rounded-full"
+                            className="mt-2 inline-flex items-center justify-center gap-3 text-white font-bold text-xs uppercase tracking-[0.18em] px-5 py-3 rounded-full"
+                            style={{
+                                background:
+                                    "linear-gradient(135deg, #25D366 0%, #1EBE5D 50%, #128C7E 100%)",
+                                boxShadow:
+                                    "0 6px 22px -6px rgba(37,211,102,0.55)",
+                            }}
                         >
-                            <WhatsappIcon className="w-4 h-4" /> WhatsApp Enquiry
+                            <span className="flex items-center justify-center w-6 h-6 rounded-full bg-white text-[#128C7E]">
+                                <WhatsappIcon className="w-3.5 h-3.5" />
+                            </span>
+                            WhatsApp Enquiry
                         </a>
                     </div>
                 </div>

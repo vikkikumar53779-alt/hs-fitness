@@ -118,10 +118,18 @@ const GalleryCard = ({ img, featured }) => {
                     href={waLink(message)}
                     target="_blank"
                     rel="noreferrer"
-                    className="w-14 h-14 bg-[var(--hs-whatsapp)] hover:bg-[var(--hs-whatsapp-hover)] rounded-full inline-flex items-center justify-center text-black shadow-[0_0_24px_rgba(37,211,102,0.4)] transition-all"
+                    className="w-16 h-16 rounded-full inline-flex items-center justify-center text-white transition-all"
+                    style={{
+                        background:
+                            "linear-gradient(135deg, #25D366 0%, #1EBE5D 50%, #128C7E 100%)",
+                        boxShadow:
+                            "0 0 30px rgba(37,211,102,0.55), inset 0 1px 0 rgba(255,255,255,0.3)",
+                    }}
                     aria-label="WhatsApp enquiry"
                 >
-                    <WhatsappIcon className="w-7 h-7" />
+                    <span className="flex items-center justify-center w-12 h-12 rounded-full bg-white text-[#128C7E]">
+                        <WhatsappIcon className="w-7 h-7" />
+                    </span>
                 </a>
             </div>
         </div>

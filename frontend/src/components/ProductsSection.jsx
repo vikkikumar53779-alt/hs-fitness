@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Phone } from "lucide-react";
 import { publicApi } from "../lib/api";
 import { BRAND, waLink } from "../lib/constants";
-import { WhatsappIcon } from "./WhatsappIcon";
+import { WhatsappIcon, WhatsappButton } from "./WhatsappIcon";
 
 const TAG_STYLES = {
     "Best Seller": "bg-[var(--hs-red)] text-white",
@@ -122,16 +122,14 @@ const ProductCard = ({ product }) => {
                         <Phone className="w-4 h-4" />
                         Contact for Price
                     </a>
-                    <a
-                        data-testid={`product-whatsapp-${product.id}`}
+                    <WhatsappButton
                         href={waLink(message)}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="flex-1 inline-flex items-center justify-center gap-2 bg-[var(--hs-whatsapp)] hover:bg-[var(--hs-whatsapp-hover)] text-black font-bold uppercase tracking-widest text-[10px] px-4 py-3 rounded-full transition-all"
+                        size="sm"
+                        testId={`product-whatsapp-${product.id}`}
+                        className="flex-1 justify-center"
                     >
-                        <WhatsappIcon className="w-4 h-4" />
                         WhatsApp
-                    </a>
+                    </WhatsappButton>
                 </div>
             </div>
         </article>
