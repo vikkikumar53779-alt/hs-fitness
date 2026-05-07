@@ -1,12 +1,12 @@
 export const BRAND = {
     name: "HS FITNESS",
     tagline: "Premium Fitness Equipment Manufacturing & Trading",
-    phone: "+91 9717648894",
-    phoneIntl: "919717648894",
+    phone: "+91 9217178894",
+    phoneIntl: "919217178894",
     email: "contact@hsfitness.in",
     address:
         "52, DTC Colony, Priyadarshini Vihar, Kalyan Vihar, New Delhi, Delhi 110009",
-    whatsappBase: "https://wa.me/919717648894",
+    whatsappBase: "https://wa.me/919217178894",
     defaultMessage:
         "Hi HS Fitness, I am interested in your product",
     logoUrl:
