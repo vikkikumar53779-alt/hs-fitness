@@ -5,6 +5,7 @@ import ProductsSection from "../components/ProductsSection";
 import GallerySection from "../components/GallerySection";
 import CategoriesSection from "../components/CategoriesSection";
 import WhyChooseUs from "../components/WhyChooseUs";
+import BrandsSection from "../components/BrandsSection";
 import Reviews from "../components/Reviews";
 import ContactSection from "../components/ContactSection";
 import Footer from "../components/Footer";
@@ -21,6 +22,7 @@ export default function Home() {
                 <CategoriesSection />
                 <GallerySection />
                 <WhyChooseUs />
+                <BrandsSection />
                 <Reviews />
                 <ContactSection />
             </main>

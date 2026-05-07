@@ -28,6 +28,14 @@ export const Hero = () => {
                 <div className="absolute inset-0 bg-gradient-to-t from-black via-black/30 to-transparent" />
             </div>
 
+            {/* Subtle large logo watermark — bottom-right */}
+            <img
+                src={BRAND.logoUrl}
+                alt=""
+                aria-hidden="true"
+                className="hidden lg:block absolute bottom-12 right-12 w-[420px] opacity-[0.08] blur-[0.5px] mix-blend-screen pointer-events-none z-[1] select-none"
+            />
+
             {/* Red accent blade */}
             <div className="absolute left-0 top-1/2 -translate-y-1/2 w-[4px] h-56 bg-[var(--hs-red)] shadow-[0_0_30px_rgba(220,31,38,0.6)] z-10" />
 

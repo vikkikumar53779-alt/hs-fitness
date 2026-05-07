@@ -17,7 +17,7 @@ export const BRAND = {
     defaultMessage:
         "Hi HS Fitness, I am interested in your product",
     logoUrl:
-        "https://customer-assets.emergentagent.com/job_ef732ca6-c14e-4250-bbc8-4f4cf1247ef8/artifacts/sowj2soz_IMG_20260502_111753_715.jpg",
+        "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/nc4kzok9_IMG_20260502_111753_715.jpg",
     heroImage:
         "https://images.unsplash.com/photo-1770513649465-2c60c8039806?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njl8MHwxfHNlYXJjaHwxfHxkYXJrJTIwY2luZW1hdGljJTIwZ3ltfGVufDB8fHx8MTc3ODEyNjIzOXww&ixlib=rb-4.1.0&q=85",
 };
