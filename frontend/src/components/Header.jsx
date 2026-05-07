@@ -109,18 +109,13 @@ export const Header = () => {
                             href={waLink()}
                             target="_blank"
                             rel="noreferrer"
-                            className="mt-2 inline-flex items-center justify-center gap-3 text-white font-bold text-xs uppercase tracking-[0.18em] px-5 py-3 rounded-full"
-                            style={{
-                                background:
-                                    "linear-gradient(135deg, #25D366 0%, #1EBE5D 50%, #128C7E 100%)",
-                                boxShadow:
-                                    "0 6px 22px -6px rgba(37,211,102,0.55)",
-                            }}
+                            className="wa-btn group relative mt-2 inline-flex items-center justify-center gap-3 text-white font-bold text-xs uppercase tracking-[0.18em] px-5 py-3 rounded-full overflow-hidden"
                         >
-                            <span className="flex items-center justify-center w-6 h-6 rounded-full bg-white text-[#128C7E]">
-                                <WhatsappIcon className="w-3.5 h-3.5" />
+                            <span className="wa-glow" aria-hidden="true" />
+                            <span className="relative z-10 flex items-center justify-center w-7 h-7 rounded-full bg-white text-[#128C7E]">
+                                <WhatsappIcon className="w-4 h-4" />
                             </span>
-                            WhatsApp Enquiry
+                            <span className="relative z-10">WhatsApp Enquiry</span>
                         </a>
                     </div>
                 </div>
