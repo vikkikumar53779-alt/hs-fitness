@@ -35,22 +35,38 @@ export const Footer = () => {
                         </p>
 
                         <div className="mt-6 flex items-center gap-3">
-                            {[
-                                { Icon: Instagram, href: "#" },
-                                { Icon: Facebook, href: "#" },
-                                { Icon: Youtube, href: "#" },
-                            ].map(({ Icon, href }, i) => (
-                                <a
-                                    key={i}
-                                    href={href}
-                                    target="_blank"
-                                    rel="noreferrer"
-                                    data-testid={`social-${i}`}
-                                    className="w-10 h-10 rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[var(--hs-red)] hover:bg-[var(--hs-red)]/10 flex items-center justify-center transition-all"
-                                >
-                                    <Icon className="w-4 h-4" />
-                                </a>
-                            ))}
+                            <a
+                                href={BRAND.instagramUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                data-testid="footer-instagram"
+                                aria-label="Instagram"
+                                className="group relative w-10 h-10 rounded-full overflow-hidden text-white flex items-center justify-center transition-transform duration-500 hover:scale-110"
+                                style={{
+                                    background:
+                                        "linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%)",
+                                    boxShadow:
+                                        "0 4px 14px -4px rgba(220,39,67,0.6)",
+                                }}
+                            >
+                                <Instagram className="w-4 h-4 relative z-10" />
+                            </a>
+                            <a
+                                href="#"
+                                data-testid="footer-facebook"
+                                aria-label="Facebook"
+                                className="w-10 h-10 rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[var(--hs-red)] hover:bg-[var(--hs-red)]/10 flex items-center justify-center transition-all"
+                            >
+                                <Facebook className="w-4 h-4" />
+                            </a>
+                            <a
+                                href="#"
+                                data-testid="footer-youtube"
+                                aria-label="YouTube"
+                                className="w-10 h-10 rounded-full border border-white/10 text-white/70 hover:text-white hover:border-[var(--hs-red)] hover:bg-[var(--hs-red)]/10 flex items-center justify-center transition-all"
+                            >
+                                <Youtube className="w-4 h-4" />
+                            </a>
                             <a
                                 href={waLink()}
                                 target="_blank"
@@ -62,6 +78,18 @@ export const Footer = () => {
                                 <span className="relative z-10 flex items-center justify-center">
                                     <WhatsappIcon className="w-4 h-4" />
                                 </span>
+                            </a>
+                        </div>
+
+                        <div className="mt-5 text-xs text-neutral-500">
+                            Instagram:{" "}
+                            <a
+                                href={BRAND.instagramUrl}
+                                target="_blank"
+                                rel="noreferrer"
+                                className="text-[var(--hs-red)] font-bold tracking-wider hover:underline"
+                            >
+                                @{BRAND.instagram}
                             </a>
                         </div>
                     </div>
@@ -92,18 +120,31 @@ export const Footer = () => {
                         </div>
                         <ul className="mt-5 space-y-4 text-sm text-neutral-300">
                             <li className="flex items-start gap-3">
-                                <MapPin className="w-4 h-4 mt-0.5 text-[var(--hs-red)]" />
+                                <MapPin className="w-4 h-4 mt-0.5 text-[var(--hs-red)] flex-shrink-0" />
                                 <span>{BRAND.address}</span>
                             </li>
+                            {BRAND.phones.map((p) => (
+                                <li
+                                    key={p.tel}
+                                    className="flex items-center gap-3"
+                                >
+                                    <Phone className="w-4 h-4 text-[var(--hs-red)] flex-shrink-0" />
+                                    <a
+                                        href={`tel:${p.tel}`}
+                                        className="hover:text-[var(--hs-red)] transition-colors"
+                                    >
+                                        {p.label}
+                                    </a>
+                                </li>
+                            ))}
                             <li className="flex items-center gap-3">
-                                <Phone className="w-4 h-4 text-[var(--hs-red)]" />
-                                <a href={`tel:${BRAND.phoneIntl}`}>
-                                    {BRAND.phone}
+                                <Mail className="w-4 h-4 text-[var(--hs-red)] flex-shrink-0" />
+                                <a
+                                    href={`mailto:${BRAND.email}`}
+                                    className="hover:text-[var(--hs-red)] transition-colors break-all"
+                                >
+                                    {BRAND.email}
                                 </a>
-                            </li>
-                            <li className="flex items-center gap-3">
-                                <Mail className="w-4 h-4 text-[var(--hs-red)]" />
-                                <a href={`mailto:${BRAND.email}`}>{BRAND.email}</a>
                             </li>
                         </ul>
                     </div>

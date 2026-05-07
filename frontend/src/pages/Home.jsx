@@ -1,5 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
+import TickerStrip from "../components/TickerStrip";
 import ProductsSection from "../components/ProductsSection";
 import GallerySection from "../components/GallerySection";
 import CategoriesSection from "../components/CategoriesSection";
@@ -15,6 +16,7 @@ export default function Home() {
             <Header />
             <main>
                 <Hero />
+                <TickerStrip />
                 <ProductsSection />
                 <CategoriesSection />
                 <GallerySection />

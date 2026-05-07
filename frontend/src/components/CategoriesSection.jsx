@@ -49,9 +49,9 @@ export const CategoriesSection = () => {
                                 src={cat.image}
                                 alt={cat.name}
                                 loading="lazy"
-                                className="absolute inset-0 w-full h-full object-cover opacity-55 group-hover:opacity-75 group-hover:scale-105 transition-all duration-700"
+                                className="absolute inset-0 w-full h-full object-cover opacity-90 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700"
                             />
-                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/60 to-transparent" />
+                            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/55 to-black/15" />
                             <div className="absolute inset-0 p-6 flex flex-col justify-between">
                                 <ArrowUpRight className="self-end w-6 h-6 text-white/70 group-hover:text-[var(--hs-red)] group-hover:rotate-12 transition-all" />
                                 <div>

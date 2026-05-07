@@ -3,7 +3,14 @@ export const BRAND = {
     tagline: "Premium Fitness Equipment Manufacturing & Trading",
     phone: "+91 9217178894",
     phoneIntl: "919217178894",
-    email: "contact@hsfitness.in",
+    phones: [
+        { label: "+91 92171 78894", tel: "919217178894" },
+        { label: "+91 97116 48894", tel: "919711648894" },
+        { label: "+91 96548 98894", tel: "919654898894" },
+    ],
+    email: "hsfitness036@gmail.com",
+    instagram: "rsfitworld",
+    instagramUrl: "https://instagram.com/rsfitworld",
     address:
         "52, DTC Colony, Priyadarshini Vihar, Kalyan Vihar, New Delhi, Delhi 110009",
     whatsappBase: "https://wa.me/919217178894",
@@ -33,22 +40,22 @@ export const CATEGORIES = [
     {
         name: "Cardio",
         description: "Treadmills, bikes & ellipticals.",
-        image: "https://images.unsplash.com/photo-1736851137148-f7a8a04f1c0a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBmaXRuZXNzJTIwZXF1aXBtZW50JTIwZGFya3xlbnwwfHx8fDE3NzgxMjYyMzl8MA&ixlib=rb-4.1.0&q=85",
+        image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/zfe9b44q_IMG-20260502-WA0030.jpg",
     },
     {
         name: "Strength",
         description: "Benches, racks & stations.",
-        image: "https://images.unsplash.com/photo-1774864040225-867c8806d78e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHw0fHxsdXh1cnklMjBmaXRuZXNzJTIwZXF1aXBtZW50JTIwZGFya3xlbnwwfHx8fDE3NzgxMjYyMzl8MA&ixlib=rb-4.1.0&q=85",
+        image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/reg0trj6_IMG-20260507-WA0001.jpg",
     },
     {
         name: "Machines",
         description: "Plate-loaded & selectorized.",
-        image: "https://customer-assets.emergentagent.com/job_ef732ca6-c14e-4250-bbc8-4f4cf1247ef8/artifacts/p88hgf3x_IMG-20260502-WA0038.jpg",
+        image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/ak3vbw22_IMG-20260502-WA0033.jpg",
     },
     {
         name: "Plates",
         description: "Olympic plates & dumbbells.",
-        image: "https://images.unsplash.com/photo-1620188540300-c156a625c6fc?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2MzR8MHwxfHNlYXJjaHwzfHxsdXh1cnklMjBmaXRuZXNzJTIwZXF1aXBtZW50JTIwZGFya3xlbnwwfHx8fDE3NzgxMjYyMzl8MA&ixlib=rb-4.1.0&q=85",
+        image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/lorfekfk_IMG-20260507-WA0003.jpg",
     },
 ];
 
@@ -71,7 +78,7 @@ export const WHY_US = [
     {
         icon: "Truck",
         title: "Fast Delivery",
-        text: "Pan-India dispatch with installation & after-sales support.",
+        text: "Pan-India dispatch with installation and after-sales support.",
     },
 ];
 

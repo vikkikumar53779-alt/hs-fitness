@@ -140,6 +140,23 @@ body {
     );
 }
 
+/* Premium red button (with subtle glow) */
+.red-btn {
+    background: linear-gradient(135deg, #dc1f26 0%, #b9181f 100%);
+    box-shadow:
+        0 6px 22px -6px rgba(220, 31, 38, 0.55),
+        inset 0 1px 0 rgba(255, 255, 255, 0.18);
+    transition:
+        transform 0.4s ease,
+        box-shadow 0.4s ease;
+}
+.red-btn:hover {
+    transform: translateY(-2px);
+    box-shadow:
+        0 14px 36px -8px rgba(220, 31, 38, 0.85),
+        inset 0 1px 0 rgba(255, 255, 255, 0.25);
+}
+
 /* Fade up on scroll */
 @keyframes fadeUp {
     from {
