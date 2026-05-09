@@ -221,70 +221,82 @@ tailwind.config = {
       <h2 class="font-display uppercase text-4xl sm:text-5xl lg:text-6xl mt-4 leading-[0.95]">Let&rsquo;s Build Your <span class="text-[#DC1F26]">Gym</span></h2>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-      <form id="contact-form" class="relative p-8 md:p-10 bg-[#0f0f0f] border border-white/10 rounded-xl">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
-          <div><label class="form-label">Your Name</label><input class="form-input" type="text" name="name" required /></div>
-          <div><label class="form-label">Phone</label><input class="form-input" type="tel" name="phone" required /></div>
-        </div>
-        <div class="mt-5"><label class="form-label">Email (optional)</label><input class="form-input" type="email" name="email" /></div>
-        <div class="mt-5"><label class="form-label">Your Message</label><textarea name="message" rows="5" required placeholder="Tell us about your requirement…" class="form-input"></textarea></div>
-        <div class="mt-6 flex flex-col sm:flex-row gap-4">
-          <button type="submit" class="red-btn flex-1 inline-flex items-center justify-center gap-2 text-white font-bold uppercase tracking-[0.18em] text-xs px-6 py-4">
-            <i data-lucide="send" class="w-4 h-4"></i> Send Enquiry
-         <a href="https://wa.me/919217178894" target="_blank"
-class="mt-4 inline-flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3 rounded-lg">
-  <i data-lucide="message-circle" class="w-5 h-5"></i>
-  Chat on WhatsApp
-         </a> 
-      </form>
-      <div class="flex flex-col gap-6">
 
-  <!-- CONTACT INFO -->
-  <div id="contact-info" class="p-6 md:p-8 bg-[#0f0f0f] border border-white/10 rounded-xl space-y-4">
+  <!-- LEFT SIDE FORM -->
+  <form id="contact-form" class="relative p-8 md:p-10 bg-[#0f0f0f] border border-white/10 rounded-xl">
 
-    <div class="flex items-start gap-3">
-      <i data-lucide="map-pin" class="w-5 h-5 text-[#dc1f26]"></i>
-      <p class="text-white text-sm">
-        52, DTC Colony, Priyadarshini Vihar,<br>
-        Kalyan Vihar, New Delhi, Delhi 110009
-      </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5">
+      <div>
+        <label class="form-label">Your Name</label>
+        <input class="form-input" type="text" required />
+      </div>
+      <div>
+        <label class="form-label">Phone</label>
+        <input class="form-input" type="tel" required />
+      </div>
     </div>
 
-    <div class="flex items-start gap-3">
-      <i data-lucide="phone" class="w-5 h-5 text-[#dc1f26]"></i>
-      <p class="text-white text-sm">
-        +91 92171 78894<br>
-        +91 97116 48894
-      </p>
+    <div class="mt-5">
+      <label class="form-label">Email</label>
+      <input class="form-input" type="email" />
     </div>
 
-    <div class="flex items-start gap-3">
-      <i data-lucide="mail" class="w-5 h-5 text-[#dc1f26]"></i>
-      <p class="text-white text-sm">
-        hsfitness036@gmail.com
-      </p>
+    <div class="mt-5">
+      <label class="form-label">Your Message</label>
+      <textarea class="form-input" rows="5"></textarea>
     </div>
 
-    <div class="flex items-start gap-3">
-      <i data-lucide="instagram" class="w-5 h-5 text-[#dc1f26]"></i>
-      <p class="text-[#f43f5e] text-sm">
-        @rsfitworld
-      </p>
+    <div class="mt-6 flex gap-4">
+      <button class="red-btn px-6 py-3 text-white">Send Enquiry</button>
+
+      <a href="https://wa.me/919217178894" target="_blank"
+        class="bg-[#25D366] text-white px-6 py-3 rounded-lg flex items-center gap-2">
+        <i data-lucide="message-circle" class="w-5 h-5"></i>
+        WhatsApp
+      </a>
     </div>
 
-  </div>
+  </form>
 
-  <!-- MAP -->
-  <div class="relative h-72 overflow-hidden rounded-xl border border-white/10">
-    <iframe 
-      src="https://www.google.com/maps?q=52+DTC+Colony+Priyadarshini+Vihar+Delhi&output=embed"
-      class="w-full h-full border-0"
-      loading="lazy">
-    </iframe>
-  </div>
+  <!-- RIGHT SIDE -->
+  <div class="flex flex-col gap-6">
 
+    <!-- CONTACT INFO -->
+    <div class="p-6 bg-[#0f0f0f] border border-white/10 rounded-xl space-y-4">
+
+      <div class="flex gap-3">
+        <i data-lucide="map-pin"></i>
+        <p>52, DTC Colony, Delhi 110009</p>
       </div>
 
+      <div class="flex gap-3">
+        <i data-lucide="phone"></i>
+        <p>+91 92171 78894<br>+91 97116 48894</p>
+      </div>
+
+      <div class="flex gap-3">
+        <i data-lucide="mail"></i>
+        <p>hsfitness036@gmail.com</p>
+      </div>
+
+      <div class="flex gap-3">
+        <i data-lucide="instagram"></i>
+        <p>@rsfitworld</p>
+      </div>
+
+    </div>
+
+    <!-- MAP -->
+    <div class="h-72 rounded-xl overflow-hidden border border-white/10">
+      <iframe 
+        src="https://www.google.com/maps?q=52+DTC+Colony+Priyadarshini+Vihar+Delhi&output=embed"
+        class="w-full h-full">
+      </iframe>
+    </div>
+
+  </div>
+
+    </div>
 
 <!-- ====================== FOOTER ====================== -->
 <footer class="relative bg-[#050505] border-t border-white/5 pt-20 pb-10">
