@@ -35,37 +35,7 @@ body { margin: 0; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: 
 .nav-link:hover::after { width: 100%; }
 .mob-nav { color: #e5e5e5; font-size: 14px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.22em; padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.05); }
 
-/* Floating WhatsApp pulse */
-@keyframes pulseGreen {
-  0%   { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.6); }
-  70%  { box-shadow: 0 0 0 22px rgba(37, 211, 102, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
-}
-.whatsapp-pulse { animation: pulseGreen 2s infinite; }
 
-/* WhatsApp button */
-.wa-btn {
-  background: linear-gradient(135deg, #25d366 0%, #1ebe5d 50%, #128c7e 100%);
-  box-shadow: 0 8px 28px -8px rgba(37,211,102,0.55), inset 0 1px 0 rgba(255,255,255,0.3);
-  position: relative;
-}
-.wa-btn:hover {
-  box-shadow: 0 14px 38px -8px rgba(37,211,102,0.85), inset 0 1px 0 rgba(255,255,255,0.4);
-}
-@keyframes waBreath {
-  0%,100% { opacity: 0.55; transform: scale(1); }
-  50%     { opacity: 0.95; transform: scale(1.05); }
-}
-.wa-glow {
-  position: absolute; inset: -3px; border-radius: 9999px;
-  background: radial-gradient(closest-side, rgba(37,211,102,0.55), rgba(37,211,102,0) 75%);
-  filter: blur(14px); animation: waBreath 2.6s ease-in-out infinite; z-index: 0;
-  pointer-events: none;
-}
-.wa-btn:hover .wa-glow {
-  animation-duration: 1.4s;
-  background: radial-gradient(closest-side, rgba(37,211,102,0.85), rgba(37,211,102,0) 75%);
-}
 
 /* Red button */
 .red-btn {
