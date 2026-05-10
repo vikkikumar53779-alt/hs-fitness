@@ -181,12 +181,24 @@
 `).join("")}
           </div>
         </div>
-        <a href="mailto:${b.email}" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
-          <div class="w-10 h-10 rounded bg-[#DC1F26]/10 border border-[#DC1F26]/30 text-[#DC1F26] flex items-center justify-center"><i data-lucide="mail" class="w-5 h-5"></i></div>
-          <div>
-            <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Email</div>
-            <div class="mt-1 text-white text-sm md:text-base break-all">${b.email}</div>
-          </div>
+        <a href="mailto:${b.email}" target="_blank"
+class="flex gap-4 items-start hover:opacity-80 transition-opacity">
+
+  <div class="w-10 h-10 rounded bg-[#DC1F26]/10 border border-[#DC1F26]/30 text-[#DC1F26] flex items-center justify-center">
+    <i data-lucide="mail" class="w-5 h-5"></i>
+  </div>
+
+  <div>
+    <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">
+      Email
+    </div>
+
+    <div class="mt-1 text-white text-sm md:text-base break-all">
+      ${b.email}
+    </div>
+  </div>
+
+</a>
         </a>
         <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
           <div class="w-10 h-10 rounded text-white flex items-center justify-center" style="background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);">
