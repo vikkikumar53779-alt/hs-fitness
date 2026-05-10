@@ -200,17 +200,16 @@ class="flex gap-4 items-start hover:opacity-80 transition-opacity">
 
 </a>
       
-        <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
+        <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start"> hover:opacity-80 transition-opacity">
           <div class="w-10 h-10 rounded text-white flex items-center justify-center" style="background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);">
-            <i data-lucide="instagram" class="w-5 h-5"></i>
+            <div> data-lucide="instagram" class="w-5 h-5"></i>
           </div>
           <div>
             <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Instagram</div>
             <div class="mt-1 text-white text-sm md:text-base">@${b.instagram}</div>
           </div>
         </a>
-      </div>`;
-  }
+      
 
   /* ================== FOOTER ================== */
   function renderFooter() {
