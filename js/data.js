@@ -1,4 +1,5 @@
 // HS FITNESS — Static Site Data (auto-generated)
+window.HSF_DATA = {
 products: [
 {
   "id": "9ec4994a-a11e-47d1-9420-a9403089a369",
