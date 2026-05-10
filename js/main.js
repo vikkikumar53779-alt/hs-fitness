@@ -181,7 +181,7 @@
 `).join("")}
           </div>
         </div>
-        <a href="mailto:${b.email}" target="_blank"
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${b.email}" target="_blank"
 class="flex gap-4 items-start hover:opacity-80 transition-opacity">
 
   <div class="w-10 h-10 rounded bg-[#DC1F26]/10 border border-[#DC1F26]/30 text-[#DC1F26] flex items-center justify-center">
