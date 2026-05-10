@@ -6,7 +6,7 @@ window.HSF_DATA = {
     "name": "Multi Press",
     "description": "Premium HS Fitness Discovery Series multi-press station for chest, shoulders and triceps. Heavy-duty commercial build.",
     "category": "Machines",
-    "image_url": "https://i.ibb.co/ZpMFWgdh/IMG-20260507-WA0003.jpg,"
+    "image_url" "https://i.ibb.co/ZpMFWgdh/IMG-20260507-WA0003.jpg",
     "tag": "Best Seller",
     "order": 1
   },
