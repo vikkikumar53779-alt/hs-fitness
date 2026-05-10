@@ -174,7 +174,11 @@
             <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Call / WhatsApp</div>
           </div>
           <div class="space-y-1">
-            ${b.phones.map(p => `<a href="tel:${p.tel}" class="block text-white text-base hover:text-[#DC1F26] transition-colors">${p.label}</a>`).join("")}
+            ${b.phones.map(p => `
+  <a href="tel:${p.tel}" class="block text-white text-base hover:text-[#DC1F26]">
+    ${p.label}
+  </a>
+`).join("")}
           </div>
         </div>
         <a href="mailto:${b.email}" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
