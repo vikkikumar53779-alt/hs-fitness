@@ -16,7 +16,7 @@
   };
 
   /* WhatsApp icon SVG (reusable) */
-  const waIcon = (cls = "w-4 h-4") => `
+  const waIcon = (cls = "w-8 h-8") => `
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="${cls}">
 `;
 
