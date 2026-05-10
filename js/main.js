@@ -200,7 +200,7 @@ class="flex gap-4 items-start hover:opacity-80 transition-opacity">
 
 </a>
       
-        <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start"> hover:opacity-80 transition-opacity">
+        <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
           <div class="w-10 h-10 rounded text-white flex items-center justify-center" style="background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);">
             <div> data-lucide="instagram" class="w-5 h-5"></i>
           </div>
