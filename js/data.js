@@ -1,103 +1,96 @@
 // HS FITNESS — Static Site Data (auto-generated)
-window.HSF_DATA = {
-  products: [
-  {
-    "id": "9ec4994a-a11e-47d1-9420-a9403089a369",
-    "name": "Multi Press",
-    "description": "Premium HS Fitness Discovery Series multi-press station for chest, shoulders and triceps. Heavy-duty commercial build.",
-    "category": "Machines",
-    "image_url" "https://i.ibb.co/ZpMFWgdh/IMG-20260507-WA0003.jpg",
-    "tag": "Best Seller",
-    "order": 1
-  },
-  {
-    "id": "fae9542b-94fe-44fe-b51b-fe57c58e6a2c",
-    "name": "Shoulder Press",
-    "description": "Biomechanically tuned Discovery Series shoulder press with heavy-duty weight stack. Built for commercial gyms.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/dvpzs6v0_IMG-20260502-WA0032.jpg",
-    "tag": "Premium",
-    "order": 2
-  },
-  {
-    "id": "2e5397e4-5440-4097-ac33-1fe1293df506",
-    "name": "Horizontal Pulley",
-    "description": "Discovery Series low-row horizontal cable pulley station for back thickness and lat engagement.",
-    "category": "Machines",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/ak3vbw22_IMG-20260502-WA0033.jpg",
-    "tag": "Top Rated",
-    "order": 3
-  },
-  {
-    "id": "65b6a27e-bac0-4de4-9d96-930fd2ae167c",
-    "name": "Leg Extension",
-    "description": "Quad-isolation Discovery Series leg extension with smooth cam profile and dual-density pads.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/1bqrymha_IMG-20260502-WA0034.jpg",
-    "tag": "Premium",
-    "order": 4
-  },
-  {
-    "id": "76fe8fae-cd5f-4665-9344-0f4126242f24",
-    "name": "Lat Pull Down | Row",
-    "description": "Dual-purpose lat pulldown and seated row station from the Discovery Series – a strength cornerstone.",
-    "category": "Machines",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/4naka8cn_IMG-20260502-WA0031.jpg",
-    "tag": "Best Seller",
-    "order": 5
-  },
-  {
-    "id": "b6b96a2c-faaa-46ca-8f31-3a823da6a437",
-    "name": "CHG 200C Multi Home Gym",
-    "description": "All-in-one multi-station home gym covering full body training with premium padded stations.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_ef732ca6-c14e-4250-bbc8-4f4cf1247ef8/artifacts/p88hgf3x_IMG-20260502-WA0038.jpg",
-    "tag": "Premium",
-    "order": 6
-  },
-  {
-    "id": "9592a8eb-74df-45b9-a808-997daeb0b3cf",
-    "name": "Leg Extension | Leg Curl",
-    "description": "Dual-function Discovery Series leg extension and leg curl machine for full quad and hamstring development.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/26wj0b59_IMG-20260502-WA0029.jpg",
-    "tag": "Best Seller",
-    "order": 7
-  },
-  {
-    "id": "9c169ffa-d0dd-48ba-b23a-fec5768d347a",
-    "name": "Lying Leg Curl",
-    "description": "Discovery Series prone lying leg curl with cam-driven resistance for isolated hamstring training.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/547y3mew_IMG-20260502-WA0028.jpg",
-    "tag": "Premium",
-    "order": 8
-  },
-  {
-    "id": "b777b944-dc15-4a61-8122-1c82a8301f51",
-    "name": "Upper Limbs Assist",
-    "description": "Discovery Series assisted pull-up and dip station for upper-body strength progression.",
-    "category": "Machines",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/ne1j975c_IMG-20260502-WA0027.jpg",
-    "tag": "Top Rated",
-    "order": 9
-  },
-  {
-    "id": "00799968-6cec-40a0-86fc-b5877a7cef85",
-    "name": "Rear Delt | Pec Fly",
-    "description": "Dual-function Discovery Series rear delt and pec fly station for chest and shoulder isolation.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/6iezqeuo_IMG-20260502-WA0026.jpg",
-    "tag": "Premium",
-    "order": 10
-  },
-  {
-    "id": "d57c4b33-85be-4e90-8254-f1d3f27375b1",
-    "name": "Inner | Outer Thigh",
-    "description": "Discovery Series adductor / abductor machine for sculpting inner and outer thighs with isolated dual-action movement.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/sjo26ywm_IMG-20260502-WA0024.jpg",
-    "tag": "Premium",
+products: [
+{
+  "id": "9ec4994a-a11e-47d1-9420-a9403089a369",
+  "name": "Multi Press",
+  "description": "Premium HS Fitness Discovery Series multi-press station for chest, shoulders and triceps. Heavy-duty commercial build.",
+  "category": "Machines",
+  "image_url": "https://i.ibb.co/ZpMFWgdh/IMG-20260507-WA0003.jpg",
+  "tag": "Best Seller",
+  "order": 1
+},
+{
+  "id": "fae9542b-94fe-44fe-b51b-fe57c58e6a2c",
+  "name": "Shoulder Press",
+  "description": "Biomechanically tuned Discovery Series shoulder press with heavy-duty weight stack. Built for commercial gyms.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/Jw1JFVPZ/IMG-20260502-WA0022.jpg",
+  "tag": "Premium",
+  "order": 2
+},
+{
+  "id": "2e5397e4-5440-4097-ac33-1fe1293df506",
+  "name": "Horizontal Pulley",
+  "description": "Discovery Series low-row horizontal cable pulley station for back thickness and lat engagement.",
+  "category": "Machines",
+  "image_url": "https://i.ibb.co/RkT0wGpK/IMG-20260502-WA0023.jpg",
+  "tag": "Top Rated",
+  "order": 3
+},
+{
+  "id": "65b6a27e-bac0-4de4-9d96-930fd2ae167c",
+  "name": "Leg Extension",
+  "description": "Quad-isolation Discovery Series leg extension with smooth cam profile and dual-density pads.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/9mc27mC3/IMG-20260502-WA0021.jpg",
+  "tag": "Premium",
+  "order": 4
+},
+{
+  "id": "76fe8fae-cd5f-4665-9344-0f4126242f24",
+  "name": "Lat Pull Down | Row",
+  "description": "Dual-purpose lat pulldown and seated row station from the Discovery Series – a strength cornerstone.",
+  "category": "Machines",
+  "image_url": "https://i.ibb.co/JRj535Nw/IMG-20260502-WA0019.jpg",
+  "tag": "Best Seller",
+  "order": 5
+},
+{
+  "id": "b6b96a2c-faaa-46ca-8f31-3a823da6a437",
+  "name": "CHG 200C Multi Home Gym",
+  "description": "All-in-one multi-station home gym covering full body training with premium padded stations.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/TxLMR0GD/IMG-20260502-WA0002.jpg",
+  "tag": "Premium",
+  "order": 6
+},
+{
+  "id": "9592a8eb-74df-45b9-a808-997daeb0b3cf",
+  "name": "Leg Extension | Leg Curl",
+  "description": "Dual-function Discovery Series leg extension and leg curl machine for full quad and hamstring development.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/dwNQXgtz/IMG-20260502-WA0004.jpg",
+  "tag": "Best Seller",
+  "order": 7
+},
+{
+  "id": "9c169ffa-d0dd-48ba-b23a-fec5768d347a",
+  "name": "Lying Leg Curl",
+  "description": "Discovery Series prone lying leg curl with cam-driven resistance for isolated hamstring training.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/7xLK0qDN/IMG-20260502-WA0009.jpg",
+  "tag": "Premium",
+  "order": 8
+},
+{
+  "id": "b777b944-dc15-4a61-8122-1c82a8301f51",
+  "name": "Upper Limbs Assist",
+  "description": "Discovery Series assisted pull-up and dip station for upper-body strength progression.",
+  "category": "Machines",
+  "image_url": "https://i.ibb.co/XBywvpD/IMG-20260507-WA0001.jpg",
+  "tag": "Top Rated",
+  "order": 9
+},
+{
+  "id": "00799968-6cec-40a0-86fc-b5877a7cef85",
+  "name": "Rear Delt | Pec Fly",
+  "description": "Dual-function Discovery Series rear delt and pec fly station for chest and shoulder isolation.",
+  "category": "Strength",
+  "image_url": "https://i.ibb.co/JWxW1Ps5/IMG-20260507-WA0002.jpg",
+  "tag": "Premium",
+  "order": 10
+}
+]
     "order": 11
   },
   {
@@ -184,50 +177,7 @@ window.HSF_DATA = {
   {
     "id": "5ff2c5f5-0ae0-4dfb-9f35-a238e663a153",
     "name": "Bumper Weight Plate Set",
-    "description": "HS Fitness coloured bumper weight plate set – low noise, floor-protecting, made with non-recycled virgin rubber. IWF colour-coded.",
-    "category": "Plates",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/lorfekfk_IMG-20260507-WA0003.jpg",
-    "tag": "Best Seller",
-    "order": 21
-  },
-  {
-    "id": "f589adaa-b146-4e0e-a003-b104284745d5",
-    "name": "Deadlift Wedge | Jack",
-    "description": "HS Fitness heavy-duty deadlift wedge – built from steel for maximum grip. 'Stronger Every Lift'. Performance-driven design.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/reg0trj6_IMG-20260507-WA0001.jpg",
-    "tag": "Top Rated",
-    "order": 22
-},
-  {
-    "id": "fba3715b-7f10-4cd7-b79e-f8dd0a148bb0",
-    "name": "Deadlift Jack (Pair)",
-    "description": "HS Fitness deadlift jack pair – engineered for performance, premium quality, built for champions. Heavy-duty steel.",
-    "category": "Strength",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/r1tg4rye_IMG-20260507-WA0002.jpg",
-    "tag": "Premium",
-    "order": 23
-  },
-  {
-    "id": "4ae72fc0-3a79-4d88-93f7-c2d2a7375baa",
-    "name": "9-Barbell Vertical Holder",
-    "description": "HS Fitness 9-slot vertical barbell storage holder. Compact footprint, store more, train better.",
-    "category": "Machines",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/5xp7vvbg_IMG-20260502-WA0002.jpg",
-    "tag": "Best Seller",
-    "order": 24
-  },
-  {
-    "id": "e7e73fbb-fbca-4442-a2e3-bd8ab1951079",
-    "name": "9-Barbell Holder Compatibility",
-    "description": "Designed for standard 2-inch sleeve bars – compatible with Olympic, Curl, Hex, Trap and Multi-Grip bars.",
-    "category": "Machines",
-    "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/56dpy4l7_IMG-20260502-WA0009.jpg",
-    "tag": "Premium",
-    "order": 25
-  }
-],
-  gallery: [
+
   {
     "id": "d0b000f8-555f-4c52-b5c3-d95a85bacadd",
     "name": "Multi Press",
