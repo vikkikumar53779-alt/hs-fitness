@@ -176,15 +176,14 @@ products: [
     "order": 20
   },
   {
-    "id": "5ff2c5f5-0ae0-4dfb-9f35-a238e663a153",
-    "name": "Bumper Weight Plate Set",
-
-  {
-    "id": "d0b000f8-555f-4c52-b5c3-d95a85bacadd",
-    "image_url": "Multi Press",
-    "image": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/zfe9b44q_IMG-20260502-WA0030.jpg",
-    "order": 1
-  },
+  "id": "223610fd-fe52-49a1-90a1-16ba34f553b3",
+  "name": "Bumper Weight Plate Set",
+  "description": "HS Fitness coloured bumper weight plate set – low noise, floor-protecting, made with non-recycled virgin rubber.",
+  "category": "Plates",
+  "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/lorfekfk_IMG-20260507-WA0003.jpg",
+  "tag": "Best Seller",
+  "order": 21
+},
   {
     "id": "6b912d5b-6925-4dc8-901a-3ef0d220dbc0",
     "name": "Shoulder Press",
