@@ -109,9 +109,7 @@
   }
         </div>
         <div class="absolute inset-0 bg-black/80 backdrop-blur-[3px] flex flex-col items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center">
-          <div class="text-[10px] uppercase tracking-[0.3em] text-[#DC1F26] font-bold">Enquire Now</div>
-          <div class="font-display uppercase text-white text-xl md:text-2xl leading-tight">${g.name}</div>
-          <a href="tel:${D.brand.phones[0].tel}" class="inline-flex items-center gap-2 text-white text-sm font-semibold">
+          <div class="text-[10px] uppercase tracking-[0.3em] text-[#DC1F26] font-bold">Enquire Now</div
             <i data-lucide="phone" class="w-4 h-4 text-[#DC1F26]"></i> ${D.brand.phones[0].label}
           </a>
           <a href="${waLink(msg)}" target="_blank" rel="noreferrer" class="wa-btn group relative w-16 h-16 rounded-full inline-flex items-center justify-center overflow-hidden transition-transform duration-500 hover:scale-110" aria-label="WhatsApp enquiry">
