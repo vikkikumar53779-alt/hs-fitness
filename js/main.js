@@ -82,17 +82,31 @@
 
   /* ================== GALLERY ================== */
   function renderGallery() {
-    const items = [...D.gallery].sort((a,b) => (a.order||0) - (b.order||0));
-    $("#gallery-grid").innerHTML = items.map((g, i) => {
-      const msg = `Hi HS Fitness, I am interested in your product: ${g.name}`;
-      const featured = i === 0 ? "md:col-span-2 md:row-span-2 aspect-square" : "aspect-[4/5]";
-      return `
+  const items = [...D.gallery];
+
+  $("#gallery-grid").innerHTML = items.map((g, i) => {
+    const featured = i === 0 ? "md:col-span-2 md:row-span-2 aspect-[4/5]" : "aspect-square";
+
+    return `
       <div class="group relative overflow-hidden rounded-xl bg-[#f3efe6] ${featured}">
-        <img src="${g.image_url}" alt="${g.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[800ms]"/>
-        <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
+        <img src="${g.image_url}" 
+             alt="gallery" 
+             class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
+
+        <div class="absolute inset-0 bg-black/30"></div>
+
         <div class="absolute bottom-3 left-3 right-3">
-          <div class="text-[10px] tracking-[0.25em] uppercase text-[#DC1F26] font-bold">HS Fitness</div>
-          <div class="mt-1 font-display uppercase text-white text-lg md:text-xl leading-tight truncate">${g.name}</div>
+          <div class="text-[10px] tracking-[0.25em] uppercase text-[#DC1F26] font-bold">
+            HS Fitness
+          </div>
+          <div class="mt-1 font-display uppercase text-white text-xs md:text-xl">
+            Premium Equipment
+          </div>
+        </div>
+      </div>
+    `;
+  }).join("");
+  }
         </div>
         <div class="absolute inset-0 bg-black/80 backdrop-blur-[3px] flex flex-col items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center">
           <div class="text-[10px] uppercase tracking-[0.3em] text-[#DC1F26] font-bold">Enquire Now</div>
