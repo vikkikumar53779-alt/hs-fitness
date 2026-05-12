@@ -16,7 +16,7 @@
   };
 
   /* WhatsApp icon SVG (reusable) */
-  const waIcon = (cls = "w-8 h-8 bg-white rounded-full p-1") => `
+  const waIcon = (cls = "w-8 h-8") => `
   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" class="${cls}">
 `;
 
@@ -35,13 +35,13 @@
   function renderProducts() {
     const products = [...D.products].sort((a,b) => (a.order||0) - (b.order||0));
     $("#products-grid").innerHTML = products.map(p => {
-      const msg = `Hi HS Fitness, I am interested in your product`;
+      const msg = `Hi HS Fitness, I am interested in your product: ${p.name}`;
       const tag = tagStyle[p.tag] || "bg-white text-black";
       return `
       <article class="group relative flex flex-col bg-[#121212] border border-white/5 rounded-xl overflow-hidden transition-all duration-500 hover:border-[#DC1F26]/60 hover:shadow-[0_15px_45px_-10px_rgba(220,31,38,0.35)] hover:-translate-y-1">
         <span class="absolute top-4 left-4 z-10 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-sm backdrop-blur-md ${tag}">${p.tag}</span>
         <div class="relative aspect-square bg-[#f3efe6] overflow-hidden">
-        <img src="${p.image_url}" alt="${p.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110"> transition-transform duration-700"/>
+          <img src="${p.image_url}" alt="${p.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>
           <div class="absolute top-0 right-0 w-0 h-0 border-t-[48px] border-l-[48px] border-t-[#DC1F26] border-l-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         </div>
         <div class="flex-1 flex flex-col p-6">
@@ -82,35 +82,22 @@
 
   /* ================== GALLERY ================== */
   function renderGallery() {
-  const items = [...D.gallery];
-
-  $("#gallery-grid").innerHTML = items.map((g, i) => {
-    const featured = i === 0 ? "md:col-span-2 md:row-span-2 aspect-[4/5]" : "aspect-square";
-
-    return `
+    const items = [...D.gallery].sort((a,b) => (a.order||0) - (b.order||0));
+    $("#gallery-grid").innerHTML = items.map((g, i) => {
+      const msg = `Hi HS Fitness, I am interested in your product: ${g.name}`;
+      const featured = i === 0 ? "md:col-span-2 md:row-span-2 aspect-square" : "aspect-[4/5]";
+      return `
       <div class="group relative overflow-hidden rounded-xl bg-[#f3efe6] ${featured}">
-        <img src="${g.image_url}" 
-             alt="gallery" 
-             class="w-full h-full object-cover group-hover:scale-110 transition duration-300">
-
-        <div class="absolute inset-0 bg-black/30"></div>
-
+        <img src="${g.image_url}" alt="${g.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-[800ms]"/>
+        <div class="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/90 via-black/50 to-transparent"></div>
         <div class="absolute bottom-3 left-3 right-3">
-          <div class="text-[10px] tracking-[0.25em] uppercase text-[#DC1F26] font-bold">
-            HS Fitness
-          </div>
-          <div class="mt-1 font-display uppercase text-white text-xs md:text-xl">
-          <div class="font-display uppercase text-white text-xl md:text-2xl leading-tight">HS Fitness</div>  
-            Premium Equipment
-          </div>
-        </div>
-      </div>
-    `;
-  }).join("");
-  }
+          <div class="text-[10px] tracking-[0.25em] uppercase text-[#DC1F26] font-bold">HS Fitness</div>
+          <div class="mt-1 font-display uppercase text-white text-lg md:text-xl leading-tight truncate">${g.name}</div>
         </div>
         <div class="absolute inset-0 bg-black/80 backdrop-blur-[3px] flex flex-col items-center justify-center gap-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300 p-4 text-center">
-          <div class="text-[10px] uppercase tracking-[0.3em] text-[#DC1F26] font-bold">Enquire Now</div
+          <div class="text-[10px] uppercase tracking-[0.3em] text-[#DC1F26] font-bold">Enquire Now</div>
+          <div class="font-display uppercase text-white text-xl md:text-2xl leading-tight">${g.name}</div>
+          <a href="tel:${D.brand.phones[0].tel}" class="inline-flex items-center gap-2 text-white text-sm font-semibold">
             <i data-lucide="phone" class="w-4 h-4 text-[#DC1F26]"></i> ${D.brand.phones[0].label}
           </a>
           <a href="${waLink(msg)}" target="_blank" rel="noreferrer" class="wa-btn group relative w-16 h-16 rounded-full inline-flex items-center justify-center overflow-hidden transition-transform duration-500 hover:scale-110" aria-label="WhatsApp enquiry">
@@ -187,42 +174,27 @@
             <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Call / WhatsApp</div>
           </div>
           <div class="space-y-1">
-            ${b.phones.map(p => `
-  <a href="tel:${p.tel}" class="block text-white text-base hover:text-[#DC1F26]">
-    ${p.label}
-  </a>
-`).join("")}
+            ${b.phones.map(p => `<a href="tel:${p.tel}" class="block text-white text-base hover:text-[#DC1F26] transition-colors">${p.label}</a>`).join("")}
           </div>
         </div>
-        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=${b.email}" target="_blank"
-class="flex gap-4 items-start hover:opacity-80 transition-opacity">
-
-  <div class="w-10 h-10 rounded bg-[#DC1F26]/10 border border-[#DC1F26]/30 text-[#DC1F26] flex items-center justify-center">
-    <i data-lucide="mail" class="w-5 h-5"></i>
-  </div>
-
-  <div>
-    <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">
-      Email
-    </div>
-
-    <div class="mt-1 text-white text-sm md:text-base break-all">
-      ${b.email}
-    </div>
-  </div>
-
-</a>
-      
+        <a href="mailto:${b.email}" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
+          <div class="w-10 h-10 rounded bg-[#DC1F26]/10 border border-[#DC1F26]/30 text-[#DC1F26] flex items-center justify-center"><i data-lucide="mail" class="w-5 h-5"></i></div>
+          <div>
+            <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Email</div>
+            <div class="mt-1 text-white text-sm md:text-base break-all">${b.email}</div>
+          </div>
+        </a>
         <a href="${b.instagramUrl}" target="_blank" rel="noreferrer" class="flex gap-4 items-start hover:opacity-80 transition-opacity">
           <div class="w-10 h-10 rounded text-white flex items-center justify-center" style="background:linear-gradient(45deg,#f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);">
-            <div> data-lucide="instagram" class="w-5 h-5"></i>
+            <i data-lucide="instagram" class="w-5 h-5"></i>
           </div>
           <div>
             <div class="text-[10px] uppercase tracking-[0.25em] text-neutral-500 font-bold">Instagram</div>
             <div class="mt-1 text-white text-sm md:text-base">@${b.instagram}</div>
           </div>
         </a>
-      
+      </div>`;
+  }
 
   /* ================== FOOTER ================== */
   function renderFooter() {
