@@ -139,18 +139,6 @@ brand: {
   defaultMessage: "Hi HS Fitness, I am interested in your product"
 },
 
-    tagline: "Premium Fitness Equipment Manufacturing & Trading",
-    phones: [
-      { label: "+91 92171 78894", tel: "919217178894" },
-      { label: "+91 97116 48894", tel: "919711648894" },
-      { label: "+91 96548 98894", tel: "919654898894" }
-    ],
-    email: "hsfitness036@gmail.com",
-    instagram: "rsfitworld",
-    instagramUrl: "https://instagram.com/rsfitworld",
-    address: "52, DTC Colony, Priyadarshini Vihar, Kalyan Vihar, New Delhi, Delhi 110009",
-    whatsapp: "https://wa.me/919217178894",
-    defaultMessage: "Hi HS Fitness, I am interested in your product"
   },
   categories: [
     { name: "Cardio",   description: "Treadmills, bikes & ellipticals.", image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/zfe9b44q_IMG-20260502-WA0030.jpg" },
