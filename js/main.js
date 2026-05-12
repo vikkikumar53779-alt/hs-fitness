@@ -35,7 +35,7 @@
   function renderProducts() {
     const products = [...D.products].sort((a,b) => (a.order||0) - (b.order||0));
     $("#products-grid").innerHTML = products.map(p => {
-      const msg = `Hi HS Fitness, I am interested in your product: ${p.name}`;
+      const msg = `Hi HS Fitness, I am interested in your product`;
       const tag = tagStyle[p.tag] || "bg-white text-black";
       return `
       <article class="group relative flex flex-col bg-[#121212] border border-white/5 rounded-xl overflow-hidden transition-all duration-500 hover:border-[#DC1F26]/60 hover:shadow-[0_15px_45px_-10px_rgba(220,31,38,0.35)] hover:-translate-y-1">
