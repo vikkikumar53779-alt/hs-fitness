@@ -120,7 +120,7 @@ products: [
   image_url: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/4ejtmk6n_IMG-20260502-WA0017.jpg",
   tag: "Premium",
   order: 12
-}
+
 
 ],
 brand: {
