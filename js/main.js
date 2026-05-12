@@ -100,6 +100,7 @@
             HS Fitness
           </div>
           <div class="mt-1 font-display uppercase text-white text-xs md:text-xl">
+          <div class="font-display uppercase text-white text-xl md:text-2xl leading-tight">HS Fitness</div>  
             Premium Equipment
           </div>
         </div>
