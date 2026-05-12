@@ -139,7 +139,6 @@ brand: {
   defaultMessage: "Hi HS Fitness, I am interested in your product"
 },
 
-  },
   categories: [
     { name: "Cardio",   description: "Treadmills, bikes & ellipticals.", image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/zfe9b44q_IMG-20260502-WA0030.jpg" },
     { name: "Strength", description: "Benches, racks & stations.",       image: "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/reg0trj6_IMG-20260507-WA0001.jpg" },
