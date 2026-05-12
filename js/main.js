@@ -41,7 +41,7 @@
       <article class="group relative flex flex-col bg-[#121212] border border-white/5 rounded-xl overflow-hidden transition-all duration-500 hover:border-[#DC1F26]/60 hover:shadow-[0_15px_45px_-10px_rgba(220,31,38,0.35)] hover:-translate-y-1">
         <span class="absolute top-4 left-4 z-10 text-[10px] font-bold uppercase tracking-widest px-3 py-1.5 rounded-sm backdrop-blur-md ${tag}">${p.tag}</span>
         <div class="relative aspect-square bg-[#f3efe6] overflow-hidden">
-        <img src="${p.image_url}" alt="${p.name}" loading="lazy"> class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"/>
+        <img src="${p.image_url}" alt="${p.name}" loading="lazy" class="w-full h-full object-cover group-hover:scale-110"> transition-transform duration-700"/>
           <div class="absolute top-0 right-0 w-0 h-0 border-t-[48px] border-l-[48px] border-t-[#DC1F26] border-l-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
         </div>
         <div class="flex-1 flex flex-col p-6">
