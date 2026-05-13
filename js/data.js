@@ -26,7 +26,7 @@ window.HSF_DATA = {
     "category": "Machines",
     "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/ak3vbw22_IMG-20260502-WA0033.jpg",
     "tag": "Top Rated",
-    "order": 
+    "order": 3
   },
   {
     "id": "65b6a27e-bac0-4de4-9d96-930fd2ae167c",
@@ -35,7 +35,7 @@ window.HSF_DATA = {
     "category": "Strength",
     "image_url": "https://customer-assets.emergentagent.com/job_hs-fitness-premium/artifacts/1bqrymha_IMG-20260502-WA0034.jpg",
     "tag": "Premium",
-    "order": 
+    "order": 4
   },
   {
     "id": "76fe8fae-cd5f-4665-9344-0f4126242f24",
@@ -54,7 +54,6 @@ window.HSF_DATA = {
     "image_url": "https://customer-assets.emergentagent.com/job_ef732ca6-c14e-4250-bbc8-4f4cf1247ef8/artifacts/p88hgf3x_IMG-20260502-WA0038.jpg",
     "tag": "Premium",
     "order": 6
-  },// HS FITNESS — Static Site Data (auto-generated)
 
   {
     "id": "9592a8eb-74df-45b9-a808-997daeb0b3cf",
