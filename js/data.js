@@ -196,7 +196,6 @@ window.HSF_DATA = {
     "order": 25
   }
 ]
-};
 
   brand: {
     name: "HS FITNESS",
