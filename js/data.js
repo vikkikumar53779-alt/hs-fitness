@@ -6,7 +6,7 @@ window.HSF_DATA = {
     "name": "Multi Press",
     "description": "Premium HS Fitness Discovery Series multi-press station for chest, shoulders and triceps. Heavy-duty commercial build.",
     "category": "Machines",
-    "image_url":
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0001.jpg
     "tag": "Best Seller",
     "order": 1
   },
@@ -15,7 +15,7 @@ window.HSF_DATA = {
     "name": "Shoulder Press",
     "description": "Biomechanically tuned Discovery Series shoulder press with heavy-duty weight stack. Built for commercial gyms.",
     "category": "Strength",
-    "image_url":
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0002.jpg
     "tag": "Premium",
     "order": 2
   },
@@ -24,7 +24,7 @@ window.HSF_DATA = {
     "name": "Horizontal Pulley",
     "description": "Discovery Series low-row horizontal cable pulley station for back thickness and lat engagement.",
     "category": "Machines",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0003.jpg
     "tag": "Top Rated",
     "order": 
   },
@@ -33,7 +33,7 @@ window.HSF_DATA = {
     "name": "Leg Extension",
     "description": "Quad-isolation Discovery Series leg extension with smooth cam profile and dual-density pads.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0004.jpg
     "tag": "Premium",
     "order": 
   },
@@ -42,7 +42,7 @@ window.HSF_DATA = {
     "name": "Lat Pull Down | Row",
     "description": "Dual-purpose lat pulldown and seated row station from the Discovery Series – a strength cornerstone.",
     "category": "Machines",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0005.jpg
     "tag": "Best Seller",
     "order": 5
   },
@@ -51,7 +51,7 @@ window.HSF_DATA = {
     "name": "CHG 200C Multi Home Gym",
     "description": "All-in-one multi-station home gym covering full body training with premium padded stations.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0006.jpg
     "tag": "Premium",
     "order": 6
 
@@ -60,7 +60,7 @@ window.HSF_DATA = {
     "name": "Leg Extension | Leg Curl",
     "description": "Dual-function Discovery Series leg extension and leg curl machine for full quad and hamstring development.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0007.jpg
     "tag": "Best Seller",
     "order": 7
   },
@@ -69,7 +69,7 @@ window.HSF_DATA = {
     "name": "Lying Leg Curl",
     "description": "Discovery Series prone lying leg curl with cam-driven resistance for isolated hamstring training.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0008.jpg
     "tag": "Premium",
     "order": 8
   },
@@ -78,7 +78,7 @@ window.HSF_DATA = {
     "name": "Upper Limbs Assist",
     "description": "Discovery Series assisted pull-up and dip station for upper-body strength progression.",
     "category": "Machines",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0009.jpg
     "tag": "Top Rated",
     "order": 9
   },
@@ -87,7 +87,7 @@ window.HSF_DATA = {
     "name": "Rear Delt | Pec Fly",
     "description": "Dual-function Discovery Series rear delt and pec fly station for chest and shoulder isolation.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0014.jpg
     "tag": "Premium",
     "order": 10
   },
@@ -96,7 +96,7 @@ window.HSF_DATA = {
     "name": "Inner | Outer Thigh",
     "description": "Discovery Series adductor / abductor machine for sculpting inner and outer thighs with isolated dual-action movement.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0015.jpg
     "tag": "Premium",
     "order": 11
   },
@@ -105,7 +105,7 @@ window.HSF_DATA = {
     "name": "Olympic Bumper Plate (Black)",
     "description": "Solid rubber Olympic bumper plate with stainless-steel insert. Available in 5KG / 10KG / 15KG / 20KG sizes.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0016.jpg
     "tag": "Best Seller",
     "order": 12
   },
@@ -114,7 +114,7 @@ window.HSF_DATA = {
     "name": "HS Fitness Bumper Plate 10KG",
     "description": "Premium green HS Fitness bumper plate (10KG). Drop-tested rubber, low-bounce profile and steel-lined hub.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0017.jpg
     "tag": "Premium",
     "order": 13
   },
@@ -123,7 +123,7 @@ window.HSF_DATA = {
     "name": "Color Bumper Plate Set (IWF)",
     "description": "IWF colour-coded HS Fitness bumper plate set – Red, Blue, Yellow, Green. Competition-grade build.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0018.jpg
     "tag": "Top Rated",
     "order": 14
   },
@@ -132,7 +132,7 @@ window.HSF_DATA = {
     "name": "Olympic Bumper Plate 20KG",
     "description": "HS Fitness Olympic bumper plate (20KG) with 50 mm collar opening. Built for heavy commercial barbell use.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0019.jpg
     "tag": "Best Seller",
     "order": 15
   },
@@ -141,7 +141,7 @@ window.HSF_DATA = {
     "name": "HS Fitness Bumper Plate 15KG",
     "description": "Yellow IWF colour-coded HS Fitness 15KG bumper plate. Solid virgin rubber with steel-lined hub.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0020.jpg
     "tag": "Premium",
     "order": 16
   },
@@ -150,7 +150,7 @@ window.HSF_DATA = {
     "name": "HS Fitness Bumper Plate (Solid Virgin Rubber)",
     "description": "10KG green bumper plate – made with solid virgin rubber and cast-iron core. Built for daily commercial drops.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0021.jpg
     "tag": "Top Rated",
     "order": 17
   },
@@ -159,7 +159,7 @@ window.HSF_DATA = {
     "name": "Bumper Plate Range (5–25 KG)",
     "description": "Full HS Fitness bumper plate range – 5 / 10 / 15 / 20 / 25 KG. 45 cm Olympic standard, IWF colour-coded.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0022.jpg
     "tag": "Best Seller",
     "order": 18
   },
@@ -168,7 +168,7 @@ window.HSF_DATA = {
     "name": "Olympic Bumper Plate 5KG",
     "description": "HS Fitness 5KG Olympic bumper plate – durable rubber, low-bounce profile, ideal for warm-up sets.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0023.jpg
     "tag": "Premium",
     "order": 19
   },
@@ -177,7 +177,7 @@ window.HSF_DATA = {
     "name": "Fractional Bumper Plate 2.5KG",
     "description": "HS Fitness 2.5KG fractional bumper plate – perfect for micro-loading and competition prep.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0024.jpg
     "tag": "Premium",
     "order": 20
   },
@@ -186,7 +186,7 @@ window.HSF_DATA = {
     "name": "Bumper Weight Plate Set",
     "description": "HS Fitness coloured bumper weight plate set – low noise, floor-protecting, made with non-recycled virgin rubber. IWF colour-coded.",
     "category": "Plates",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0025.jpg
     "tag": "Best Seller",
     "order": 21
   },
@@ -195,7 +195,7 @@ window.HSF_DATA = {
     "name": "Deadlift Wedge | Jack",
     "description": "HS Fitness heavy-duty deadlift wedge – built from steel for maximum grip. 'Stronger Every Lift'. Performance-driven design.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0026.jpg
     "tag": "Top Rated",
     "order": 22
   },
@@ -204,7 +204,7 @@ window.HSF_DATA = {
     "name": "Deadlift Jack (Pair)",
     "description": "HS Fitness deadlift jack pair – engineered for performance, premium quality, built for champions. Heavy-duty steel.",
     "category": "Strength",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0027.jpg
     "tag": "Premium",
     "order": 23
   },
@@ -213,7 +213,7 @@ window.HSF_DATA = {
     "name": "9-Barbell Vertical Holder",
     "description": "HS Fitness 9-slot vertical barbell storage holder. Compact footprint, store more, train better.",
     "category": "Machines",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0028.jpg
     "tag": "Best Seller",
     "order": 24
   },
@@ -222,7 +222,7 @@ window.HSF_DATA = {
     "name": "9-Barbell Holder Compatibility",
     "description": "Designed for standard 2-inch sleeve bars – compatible with Olympic, Curl, Hex, Trap and Multi-Grip bars.",
     "category": "Machines",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0029.jpg
     "tag": "Premium",
     "order": 25
   }
@@ -231,49 +231,49 @@ window.HSF_DATA = {
   {
     "id": "d0b000f8-555f-4c52-b5c3-d95a85bacadd",
     "name": "Multi Press",
-    "image_url":
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0030.jpg
     "order": 1
   },
   {
     "id": "6b912d5b-6925-4dc8-901a-3ef0d220dbc0",
     "name": "Shoulder Press",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0031.jpg
     "order": 2
   },
   {
     "id": "2c064352-23c1-4d9a-93cd-71a88b3e2dc2",
     "name": "Horizontal Pulley",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0032.jpg
     "order": 3
   },
   {
     "id": "6951f8ed-cedf-4a1a-bf02-02701086d3f7",
     "name": "Leg Extension",
-    "image_url":
+    "image_url":https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0033.jpg
     "order": 4
   },
   {
     "id": "4e18152e-e405-419d-a545-cd84b95fd340",
     "name": "Lat Pull Down | Row",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0034.jpg
     "order": 5
   },
   {
     "id": "efa85fdc-fdab-4717-912d-f6d6bb383a6a",
     "name": "CHG 200C Multi Home Gym",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0038.jpg
     "order": 6
   },
   {
     "id": "bb20fb90-9026-49d6-963e-0faf10d453eb",
     "name": "Leg Extension | Leg Curl",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260507-WA0001.jpg
     "order": 7
   },
   {
     "id": "b5f01782-472c-4d81-b632-7b88439dd808",
     "name": "Lying Leg Curl",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260507-WA0002.jpg
     "order": 8
   },
   {
