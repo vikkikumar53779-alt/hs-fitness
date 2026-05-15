@@ -375,7 +375,7 @@ window.HSF_DATA = {
   {
     "id": "f061baa9-e7ba-426c-9d62-5a45c542a7ed",
     "name": "9-Barbell Holder Compatibility",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0034.jpg
     "order": 25
   }
 ],
