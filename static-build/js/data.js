@@ -285,91 +285,91 @@ window.HSF_DATA = {
   {
     "id": "f14e5d12-047b-40aa-a1b2-36703c062ef7",
     "name": "Rear Delt | Pec Fly",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0001.jpg
     "order": 10
   },
   {
     "id": "cca57269-8abf-4d6c-adcc-0650c59a6fa8",
     "name": "Inner | Outer Thigh",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0002.jpg
     "order": 11
   },
   {
     "id": "125e0f95-a798-46cc-a9f8-26d1c0a3ca4d",
     "name": "Olympic Bumper Plate (Black)",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0003.jpg
     "order": 12
   },
   {
     "id": "00fa5823-670f-4c45-9396-5997e919ab1e",
     "name": "HS Fitness Bumper Plate 10KG",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0004.jpg
     "order": 13
   },
   {
     "id": "58edf320-94cd-4766-9b32-19fe78a46492",
     "name": "Color Bumper Plate Set (IWF)",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0005.jpg
     "order": 14
   },
   {
     "id": "4b15ffc2-911e-44d2-bbc3-08805ea0174b",
     "name": "Olympic Bumper Plate 20KG",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0006.jpg
     "order": 15
   },
   {
     "id": "7a174b05-0075-4eab-9893-05e80bc44b5c",
     "name": "HS Fitness Bumper Plate 15KG",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0007.jpg
     "order": 16
   },
   {
     "id": "33df59c8-ed67-42b4-9459-bfdc7eba23e8",
     "name": "HS Fitness Bumper Plate (Solid Virgin Rubber)",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0008.jpg
     "order": 17
   },
   {
     "id": "01c1f038-a193-4e9d-8557-fbba31972a83",
     "name": "Bumper Plate Range (5–25 KG)",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0009.jpg
     "order": 18
   },
   {
     "id": "c00405b7-ee43-4207-bd93-4738677f7d3f",
     "name": "Olympic Bumper Plate 5KG",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0014.jpg
     "order": 19
   },
   {
     "id": "1be0ddb6-c4d8-4f68-84a4-05b823323efa",
     "name": "Fractional Bumper Plate 2.5KG",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0025.jpg
     "order": 20
   },
   {
     "id": "223610fd-fe52-49a1-90a1-16ba34f553b3",
     "name": "Bumper Weight Plate Set",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0030.jpg
     "order": 21
   },
   {
     "id": "d4b8f0b0-e58e-46ee-8ea7-bf8a0d1f92c3",
     "name": "Deadlift Wedge | Jack",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0031.jpg
     "order": 22
   },
   {
     "id": "513623d1-afc8-41d3-8685-27778c445560",
     "name": "Deadlift Jack (Pair)",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0032.jpg
     "order": 23
   },
   {
     "id": "943d46f3-6bd4-4283-8ce1-b800e40fce99",
     "name": "9-Barbell Vertical Holder",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0033.jpg
     "order": 24
   },
   {
