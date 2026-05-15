@@ -237,49 +237,49 @@ window.HSF_DATA = {
   {
     "id": "6b912d5b-6925-4dc8-901a-3ef0d220dbc0",
     "name": "Shoulder Press",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0030.jpg
     "order": 2
   },
   {
     "id": "2c064352-23c1-4d9a-93cd-71a88b3e2dc2",
     "name": "Horizontal Pulley",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0031.jpg
     "order": 3
   },
   {
     "id": "6951f8ed-cedf-4a1a-bf02-02701086d3f7",
     "name": "Leg Extension",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0032.jpg
     "order": 4
   },
   {
     "id": "4e18152e-e405-419d-a545-cd84b95fd340",
     "name": "Lat Pull Down | Row",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0033.jpg
     "order": 5
   },
   {
     "id": "efa85fdc-fdab-4717-912d-f6d6bb383a6a",
     "name": "CHG 200C Multi Home Gym",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0034.jpg
     "order": 6
   },
   {
     "id": "bb20fb90-9026-49d6-963e-0faf10d453eb",
     "name": "Leg Extension | Leg Curl",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260502-WA0038.jpg
     "order": 7
   },
   {
     "id": "b5f01782-472c-4d81-b632-7b88439dd808",
     "name": "Lying Leg Curl",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260507-WA0001.jpg
     "order": 8
   },
   {
     "id": "1d4c5dc2-3a04-4251-ab52-4f7d05a2cc66",
     "name": "Upper Limbs Assist",
-    "image_url": 
+    "image_url": https://raw.githubusercontent.com/vikkikumar53779-alt/hs-fitness/main/IMG-20260507-WA0002.jpg
     "order": 9
   },
   {
